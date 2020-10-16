@@ -1,0 +1,1028 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    src: url(Fonts/Montserrat-Light.ttf);
+    font-family: "fonts";
+}
+@font-face{
+    src: url(Fonts/Roboto-Light.ttf);
+    font-family: "roboto";
+}
+.header__img img{  
+    width: 320px;
+    height: 540px;
+    left: 1px;
+    top: 0;
+}
+.header__first a,
+.header__first button{
+    font-family: "fontslight";
+    font-size: 14px;
+    line-height: 17px;
+    top: 30px;
+    border-radius: 40px;
+    font-family: "fonts";
+}
+.header__first a{
+    width: 44px;
+    height: 17px;
+    left: 74px;
+    font-family: "Fonts";
+}
+.header__first button{
+    left: 130px;
+    width: 90px;
+    height: 36px;
+    top: 21px;
+}
+.header__text h2{
+    left: 86px;
+    top: 153px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "fonts";
+    font-weight: bold;
+}
+.header__text h1{
+    width: 272px;
+    height: 74px;
+    left: 24px;
+    top: 203.5px;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    font-family: "fonts";
+    font-weight: bold;
+}
+.header__text p{
+    width: 280px;
+    height: 49px;
+    top: 286px;
+    left: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    font-family: "fonts";
+    font-weight: 300;
+}
+.btn{
+    border-radius: 40px;
+}
+.bigbutton{
+    top: 347px;
+    left: 25px;
+    width: 280px;
+    height: 40px;
+    font-family: "fonts";
+    font-weight: bold;
+}
+.img1{
+    width: 100%;
+    height: 240px;
+    left: 10px;
+}
+.box__step1 img{
+    left: 10px;
+    top: 616px;
+}
+.box__h2{
+    width: 289px;
+    height: 27px;
+    top: 574px;
+    left: 16px;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    font-family: "fonts";
+    font-weight: bold;
+}
+.l-30{
+    left: 30px;
+}
+.box__step1 button,
+.section__step2 button,
+.section__step3 button{
+    width: 70px;
+    height: 20px;
+    top: 680px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    padding-top: 2px;
+    font-family: "fonts";
+
+}
+.section1__text,.section1__text2{
+    line-height: 14px;
+    font-family: "fonts";
+    font-weight: bold;
+}
+.section1__text{
+    font-size: 24px;
+}
+.section1__text2{
+    font-size: 14px;
+}
+.box__step1-text{
+    top: 744px;
+}
+.box__step1-text2{
+    top: 783px;
+}
+.section__step2 img{
+    top: 866px;
+    
+}
+.section__step2 button{
+    top: 961px;
+}
+.step2__text{
+    top: 1010px;
+}
+.step2__text2{
+    top: 1048px;
+}
+.section__step3 img{
+    top: 1116px;
+}
+.section__step3 button{
+    top: 1180px;
+}
+.step3__text{
+    top: 1242px;
+}
+.step3__text2{
+    top: 1294px;
+}
+.article__img{
+    width: 121px;
+    height: 121px;
+    border-radius: 50px;
+    left: 90px;
+}
+.article__name{
+    width: 236px;
+    height: 18px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    left: 42px;
+    font-weight: bold;
+    font-family: "fonts";
+}
+.article__text{
+    height: 38px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+    left: 42px;
+    font-family: "fonts";
+    font-weight: 300;
+}
+.article__h2,
+.aside__h2,
+.nav__h2{
+    font-family: "fonts";
+    font-weight: bold;
+    width: 280px;
+    height: 54px;
+    left: 20px;
+    top: 1392px;
+    font-size: 27px;
+    line-height: 27px;
+    color: #444444;
+    text-align: center;
+}
+.article__hunter img{
+    top: 1460px;
+}
+.article__hunter h3{
+    top: 1597px;
+}
+.article__hunter p{
+    top: 1627px;
+}
+.article__wells img{
+    top: 1681px;
+}.article__wells h3{
+    top: 1818px;
+}
+.article__wells p{
+    top: 1848px;
+}
+.article__bennett img{
+    top: 1921px;
+}
+.article__bennett h3{
+    top: 2058px;
+}
+.article__bennett p{
+    top: 2088px;
+}
+.article__pierce img{
+    top: 2142px;
+}
+.article__pierce h3{
+    top: 2279px;
+}
+.article__pierce p{
+    top: 2311px;
+}
+article button{
+    border-radius: 40px;
+    width: 280px;
+    height: 40px;
+    left: 20px;
+    top: 2383px;
+    font-family: "fonts";
+    font-weight: bold;
+}
+.aside__img{
+    width: 300px;
+    height: 120px;
+    left: 10px;
+}
+.aside__sport img{
+    top: 2545px;
+}
+.aside__sport p{
+    top: 2578px;
+}
+.aside__health img{
+    top: 2675px;
+}
+.aside__health p{
+    top: 2708px;
+}
+.aside__extreme img{
+    top: 2805px;
+}
+.aside__extreme p{
+    top: 2838px;
+}
+.aside__games img{
+    top: 2935px;
+}
+.aside__games p{
+    top: 2968px;
+}
+.aside__culture img{
+    top: 3065px;
+}
+.aside__culture p{
+    top: 3098px;
+}
+.aside__enjomet img{
+    top: 3195px;
+}
+.aside__enjomet p{
+    top: 3228px;
+}
+.aside__trevelling img{
+    top: 3325px;
+}
+.aside__trevelling p{
+    top: 3360px;
+}
+.aside__text{
+    width: 206px;
+    height: 54px;
+    left: 47px;
+    font-family: "fonts";
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.aside__h2{
+   top:2458px
+}
+.nav__h2{
+    top: 2940px;
+    font-family: "fonts";
+    font-weight: bold;
+}
+nav p{
+    height: 24px;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+    top: 3003px;
+    font-family: "roboto";
+    font-weight: 300;
+}
+.input{
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #D4D4D4;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+    padding-left: 15px;
+    padding-top: 14px;
+    top: 3042px;
+    left: 20px;
+    font-family: "roboto";
+}
+nav button{
+    width: 280px;
+    height: 40px;
+    top: 3092px;
+    left: 20px;
+    font-family: "fonts";
+    font-weight: bold;
+}
+.footer__h4{
+    width: 119px;
+    height: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF4E50;
+    top: 3733px;
+    left: 101px;
+    font-family: "fonts";
+}
+hr{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #FF4E50;
+    top: 3712px;
+}
+.footer__p{
+    width: 70px;
+    height: 17px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    left: 125px;
+    top: 3766px;
+    font-family: "fonts";
+    font-weight: bold;
+}
+.footer__link,
+.footer__link2{
+    width: 218px;
+    height: 52px;
+    font-style: 14px;
+    line-height: 26px;
+    left: 66px;
+    color: #999999;
+    top: 3784px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "roboto";
+}
+.footer__link2{
+    top: 3810px;
+    width: 188px;
+}
+.footer__partners{
+    width: 64px;
+    height: 17px;
+    left: 127.5px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    top: 3842px;
+    font-family: "fonts";
+    font-weight: bold;
+}
+.footer__designed{
+    width: 83px;
+    height: 12px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #CCCCCC;
+    top: 3873px;
+    left: 120px;
+    font-family: "fonts";
+    font-weight: bold;
+}
+footer img{
+    width: 110px;
+    height: 24px;
+    left: 105px;
+    top: 3892px;
+}
+.circle{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 178px;
+    border-radius: 50px;
+}
+.article__hunter-circle{
+    position: absolute;
+    background: #FF4E50;
+    top: 1548px;
+}
+.article__hunter-circle{
+    position: absolute;
+    background: #FF4E50;
+    top: 1548px;
+}
+.article__hunter-circle{
+    position: absolute;
+    background: #FF4E50;
+    top: 1548px;
+}
+.article__hunter-circle{
+    background: #FF4E50;
+    top: 1548px;
+}
+.article__wells-circle{
+    background: #FFA710;
+    top: 1769px;
+}
+.article__bennett-circle{
+    background: #19D4CA;
+    top: 2009px;
+}
+.article__pierce-circle{
+    background: #667DF3;
+    top: 2230px;
+}
+.smallimg{
+    width: 16px;
+    height: 16px;
+    margin-left: 7px;
+}
+@media(max-width:320px){
+    .header__img{
+        background-image: url(img/mobbackground.jpg);
+        height: 540px;
+    }
+}
+@media (min-width:320px) and (max-width:768px){
+    .header__img{
+        background-image: url(img/medbackground.jpg);
+        height: 700px;
+        background-repeat: no-repeat;
+        width: 1200px;
+    }
+    .header__text h2{
+        top: 46px;
+        left: 48px;
+    }
+    .header__first a{
+        left: 565px;
+        top: 50px;
+    }
+    .header__first button{
+        left: 628px;
+        top: 40px;
+    }
+    .header__text h1{
+        left: 149px;
+        top: 223.5px;
+        font-size: 52px;
+        line-height: 63px;
+        width: 470px;
+    }
+    .header__text p{
+        width: 600px;
+        font-size: 24px;
+        background-image: 24px;
+        left: 186px;
+        top: 378px;
+    }
+    .box__step1 button{
+        left: 44px;
+        top: 1066px;
+    }
+    .section__step2 button{
+        left: 286px;
+        top: 1111px;
+    }
+    .section__step3 button{
+        left: 542px;
+        top: 1061px;
+    }
+    .bigbutton{
+        top: 436px;
+        left: 272px;
+    }
+    .box__step1-text{
+        top: 1096px;
+    }
+    .step1{
+        left: 30px;
+    }
+    .step2{
+        left: 286px;
+    }
+    .box__step1-text2{
+        top: 1164px;
+        width: 196px;
+    }
+    .step3{
+        left: 542px;
+    }
+    .box__h2{
+        text-align: center;
+        top: 794px;
+        left: 240px;
+    }
+    .img1{
+        width: 236px;
+        height: 400px;
+    }
+    .section__step3 img,.section__step2 img,.box__step1 img{
+        top:856px ;
+    }
+    .section__step2 img{
+        left:266px;
+    }
+    .box__step1 img{
+        left: 10px;
+    }
+    .section__step3 img{
+        left: 522px;
+    }
+    .article__h2{
+        left: 176px;
+        text-align: center;
+        width: 491px;
+        top: 1350px;
+    }
+   .article__hunter img,.article__wells img{
+       top: 1412px;
+   }
+    .article__bennett img,.article__pierce img{
+        top: 1671px;
+    }
+    .article__wells img,.article__pierce img{
+        left: 452px;
+    }
+    .article__hunter img,.article__bennett img{
+        left: 196px;
+    }
+    .article__hunter h3,.article__wells h3{
+        top: 1549px;
+    }
+    .article__bennett h3,.article__pierce h3{
+        top: 1808px;
+    }
+    .article__wells h3,.article__pierce h3,
+    .article__wells p,.article__pierce p{
+        left: 394px;
+    }
+    .article__hunter h3,.article__bennett h3,
+    .article__hunter p,.article__bennett p{
+        left: 138px;
+    }
+    .article__hunter p,.article__wells p{
+        top: 1579px;
+    }
+    .article__bennett p,.article__pierce p{
+        top: 1838px;
+    }
+    .article__hunter-circle,.article__wells-circle{
+        top: 1500px;
+    }
+    .article__bennett-circle,.article__pierce-circle{
+        top: 1759px;
+    }
+    .article__hunter-circle,.article__bennett-circle{
+        left: 284px;
+    }
+    .article__wells-circle,.article__pierce-circle{
+        left: 540px;
+    }
+    article button{
+        top: 1916px;
+        left: 294px;
+    }
+    .aside__h2{
+        width: 413px;
+        top: 2050px;
+        left: 209px;
+    }
+    .aside__sport img,.aside__health img,
+    .aside__extreme img,.aside__games img,
+    .aside__trevelling img,.aside__culture img,
+    .aside__enjomet img{
+        width: 236px;
+        height: 310px;
+        top: 2112px;
+    }
+    .aside__sport img,
+    .aside__games img,
+    .aside__enjomet img{
+        left: 10px;
+
+    }
+    .aside__games img,
+    .aside__culture img{
+        top: 2442px;
+    }
+    .aside__culture img,
+    .aside__enjomet img{
+        width: 492px;
+    }
+    .aside__culture p,
+    .aside__games p{
+        top: 2584px;
+    }
+    .aside__culture p{
+        left: 382px;
+    }
+    .aside__health img,
+    .aside__culture img{
+        left: 266px;
+    }
+    .aside__extreme img{
+        left: 522px;
+    }
+    .aside__sport p,.aside__health p,
+    .aside__extreme p{
+        top: 2240px;
+    }
+    .aside__sport p,
+    .aside__games p{
+        left: 15px;
+    }
+    .aside__health p{
+        left: 281px;
+    }
+    .aside__extreme p{
+        left: 537px;
+    }
+    .aside__enjomet img,
+    .aside__trevelling img{
+        top: 2772px;
+    }
+    .aside__trevelling img{
+        left: 522px;
+    }
+    .aside__enjomet p{
+        left: 118px;
+    }
+    .aside__trevelling p{
+        left: 537px;
+    }
+    .aside__trevelling p,
+    .aside__enjomet p{
+        top: 2914px;
+    }
+    .nav__h2{
+        width: 358px;
+        top: 2476px;
+        left: 233.5px;
+    }
+    nav p{
+        top: 2546px;
+        left: 178px;
+        width: 415px;
+    }
+    .input{
+        left: 143px;
+    }
+    nav button,.input{
+        top: 2595px;
+    }
+    nav button{
+        left: 452px;
+        width: 172.12px;
+    }
+    hr{
+        top: 3435px;
+    }
+    .footer__h4,.footer__p,
+    .footer__partners{
+        top: 3473px;
+    }
+    .footer__partners{
+        left: 436px;
+    }
+    .footer__p,.footer__link,.footer__link2{
+        left: 266px;
+    }
+    .footer__h4{
+        left: 39px;
+    }
+    footer img,.footer__designed{
+        left: 618px;
+    }
+    .footer__designed{
+        top: 3475px;
+    }
+    footer img{
+        top: 3494px;
+    }
+    .footer__link,.footer__link2{
+        flex-direction: column;
+    }
+    .footer__link{
+        top: 3503px;
+    }
+    .footer__link2{
+        top: 3665px;
+    }
+}
+@media(min-width:768px){
+    .header__img{
+        background-image: url(img/background.jpg);
+        height: 700px;
+        background-repeat: n;
+    }
+    .header__text h2{
+        top: 46px;
+        left: 248px;
+    }
+    .header__first a{
+        left: 995px;
+        top: 50px;
+    }
+    .header__first button{
+        left: 1059px;
+        top: 40px;
+    }
+    .header__text h1{
+        left: 485px;
+        top: 223.5px;
+        font-size: 52px;
+        line-height: 63px;
+        width: 470px;
+    }
+    .header__text p{
+        width: 600px;
+        font-size: 24px;
+        background-image: 24px;
+        left: 420px;
+        top: 378px;
+    }
+    .box__step1 button,
+    .section__step2 button,
+    .section__step3 button{
+        top: 1080px;
+    }
+    .box__step1 button{
+        left: 289px;
+    }
+    .section__step2 button{
+        left: 607px;
+    }
+    .section__step3 button{
+        left: 927px;
+    }
+    .bigbutton{
+        top: 436px;
+        left: 570px;
+    }
+    .box__step1-text{
+        top: 1110px;
+    }
+    .step1{
+        left: 275px;
+    }
+    .step2{
+        left: 595px;
+    }
+    .box__step1-text2{
+        top: 1178px;
+        width: 250px;
+    }
+
+    .step3{
+        left: 915px;
+
+    }
+    .box__h2{
+        text-align: center;
+        top: 789px;
+        left: 549px;
+    }
+    .section__step2 img,.section__step3 img,.box__step1 img{
+        top: 856px;
+        width: 20.8%;
+        height: 400px;
+    }
+    .section__step2 img{
+        left:570px;
+    }
+    .box__step1 img{
+        left: 250px;
+    }
+    .section__step3 img{
+        left: 890px;
+    }
+    .article__h2{
+        left: 476px;
+        text-align: center;
+        width: 491px;
+        top: 1345px;
+    }
+   .article__hunter img,.article__bennett img,.article__pierce img,.article__wells img{
+       top: 1412px;
+   }
+    .article__bennett img{
+        left: 541px;
+    }
+    .article__wells img{
+        left: 781px;
+    }
+    .article__pierce img{
+        left: 1021px;
+    }
+    .article__hunter img{
+        left: 301px;
+    }
+    .article__hunter h3,.article__bennett h3,
+    .article__pierce h3,.article__wells h3{
+        top: 1549px;
+    }
+    .article__hunter p,.article__bennett p,
+    .article__pierce p,.article__wells p{
+        top: 1579px;
+        text-align: center;
+    }
+    .article__hunter h3{
+        left:250px ;
+    }
+    .article__pierce h3,
+    .article__pierce p{
+        left: 980px;
+    }
+    .article__bennett h3,
+    .article__bennett p{
+        left: 487px;
+        
+    }
+    .article__wells h3{
+        left:730px ;
+    }
+    .article__hunter p{
+        left:200px ;
+    }
+    .article__wells p{
+        left:735px ;
+        top:1584px;
+    }
+    .article__hunter-circle,.article__wells-circle,
+    .article__bennett-circle,.article__pierce-circle{
+        top: 1500px;
+    }
+    .article__hunter-circle{
+        left: 389px;
+    }
+    .article__wells-circle{
+        left: 869px;
+    }
+    .article__bennett-circle{
+        left: 629px;
+    }
+    .article__pierce-circle{
+        left: 1109px;
+    }
+    article button{
+        top: 1672px;
+        left: 580px;
+    }
+    .aside__h2{
+        width: 413px;
+        top: 1781px;
+        left: 514px;
+    }
+    .aside__sport img,.aside__health img,
+    .aside__extreme img,.aside__games img,
+    .aside__trevelling img,.aside__culture img,
+    .aside__enjomet img{
+        width: 300px;
+        height: 310px;
+        top: 1848px;
+    }
+    .aside__sport img,
+    .aside__games img,
+    .aside__enjomet img{
+        left: 250px;
+
+    }
+    .aside__games img,
+    .aside__culture img{
+        top: 2178px;
+    }
+    .aside__culture img,
+    .aside__enjomet img{
+        width: 620px;
+    }
+    .aside__culture p,
+    .aside__games p{
+        top: 2330px;
+    }
+    .aside__culture p{
+        left: 750px;
+    }
+    .aside__health img,
+    .aside__culture img{
+        left: 570px;
+
+    }
+    .aside__extreme img{
+        left: 890px;
+    }
+    .aside__sport p,.aside__health p,
+    .aside__extreme p{
+        top: 1990px;
+    }
+    .aside__sport p,
+    .aside__games p{
+        left: 296px;
+    }
+    .aside__health p{
+        left: 601px;
+    }
+    .aside__extreme p{
+        left: 947px;
+    }
+    .aside__enjomet img,
+    .aside__trevelling img{
+        top: 2508px;
+    }
+    .aside__trevelling img{
+        left: 890px;
+    }
+    .aside__enjomet p{
+        left: 422px;
+    }
+    .aside__trevelling p{
+        left: 930px;
+    }
+    .aside__trevelling p,
+    .aside__enjomet p{
+        top: 2650px;
+    }
+    .nav__h2{
+        width: 358px;
+        top: 2207px;
+        left: 540.5px;
+    }
+    nav p{
+        top: 2282px;
+        left: 513px;
+        width: 415px;
+    }
+    .input{
+        left: 478px;
+    }
+    nav button,.input{
+        top: 2331px;
+    }
+    nav button{
+        left: 787px;
+        width: 172.17px;
+    }
+    hr{
+        top: 3191px;
+    }
+    .footer__h4,.footer__p,
+    .footer__partners{
+        top: 3239px;
+    }
+    .footer__partners{
+        left: 729px;
+    }
+    .footer__p,.footer__link,.footer__link2{
+        left: 490px;
+    }
+    .footer__h4{
+        left: 249px;
+    }
+    footer img,.footer__designed{
+        left: 1080px;
+    }
+    .footer__designed{
+        top: 3231px;
+    }
+    footer img{
+        top: 3250px;
+    }
+    .footer__link,.footer__link2{
+        flex-direction: column;
+    }
+    .footer__link{
+        top: 3259px;
+    }
+    .footer__link2{
+        top: 3425px;
+    }
+}
+
+
+
+
+
+
